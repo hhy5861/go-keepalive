@@ -1,10 +1,10 @@
-package utility
+package keepalive
 
 import (
+	"io/ioutil"
+	"net"
 	"net/http"
 	"time"
-	"net"
-	"io/ioutil"
 )
 
 type NewClient struct {
